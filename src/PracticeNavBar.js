@@ -6,12 +6,13 @@ const PracticeNavBar = () => {
 
 
             <div className="container">
-                <div className='col-12'>
-                    <div className='row'>
-                        <div className="col-lg-8 col-md-12">
+            <div className='row'>
+              
+                   
+                        <div className="col col-lg-3 col-md-2">
                             logo
                         </div>
-                        <div className='col-12 d-none col-md-8 d-md-block list '>
+                        <div className='col-6  d-none col-md-8 d-md-block  col-lg-6 list '>
                             <ul>
                                 <li>Home</li>
                                 <li>About us</li>
@@ -21,7 +22,7 @@ const PracticeNavBar = () => {
                                 <li>Contact</li>
                             </ul>
                         </div>
-                        <div className='col-lg-4 col-md-12'>
+                        <div className=' col col-lg-3 col-md-2'>
                             sign-up
                         </div>
                     </div>
@@ -32,7 +33,7 @@ const PracticeNavBar = () => {
 
 
 
-        </div>)
+        )
 }
 
 export default PracticeNavBar
