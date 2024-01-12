@@ -1,10 +1,10 @@
 import React from 'react'
-import { banner } from './Project-images';
+import { banner, banner2 } from './Project-images';
 const MainContent = () => {
     return (
         <div className='container'>
             <div className='row'>
-
+                
                 <div className='col-lg-8 col-md-12' >
                     <button type='button' class='btn btn-primary btn-lg'>#Get your 14 days free trial</button>
                     <h1>The Revolutionary App That Makes Your Life Easier Than Others Apps</h1>

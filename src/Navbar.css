@@ -4,7 +4,7 @@
 
 
 body{
-    overflow-x: hidden;
+   
     float:left;
     width:100%;
     min-width: 320px;
@@ -115,9 +115,15 @@ li{
     padding: 12px 15px !important;
     
     display: inline-block;
+
+
+    position: absolute;
+    right: 57px;
+    top: 9px;
+}
     
 
-}
+
 .mobile{
     margin-top: 10px;
 }
@@ -259,3 +265,14 @@ li{
 .dropdown-toggle::after{
     border-top:none;
 }
+.hamburger-menu{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+/* .d-none .show{
+   display:block
+
+} */
+
+

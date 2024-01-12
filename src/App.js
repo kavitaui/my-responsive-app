@@ -5,16 +5,18 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from './Navbar';
 import MainNav from './ManiNav';
 import MainContent from './MainContent';
+import FullResponsiveNavBar from './FullResponsiveNavBar';
 ;
 function App() {
   return (
     <div className='nav-container-wrapper'>
 
-     <Navbar/>
+<FullResponsiveNavBar/>
      {/* <PracticeNavBar/>  */}
     <MainContent/>
      {/* <MainNav/> */}
         {/* <PracticeNavBar/>  */}
+        {/* <FullResponsiveNavBar/> */}
     </div>
   
     
