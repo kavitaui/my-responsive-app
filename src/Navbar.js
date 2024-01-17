@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (<>
     <div className='main-nav'>
-      {/* <div className='container container-md-fluid'> */}
+
       <div className='col-12'>
         <div className='row' >
-          <div className='col-6 col-md-2 order-md-1 col-lg-2   logo '>
+          <div className='col-6 col-md-2 order-md-1 col-lg-2 logo '>
             <img src={logo} alt="" />
           </div>
           <div className='col-6  col-md-4 order-md-3 col-lg-3 '>
@@ -35,7 +35,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className={`col-md-6 col-lg-7 order-md-2 ${!isVisible? "d-none":""} d-md-block'`}>
+          <div className={` col-lg-7 order-md-2 ${!isVisible? "d-none":""} d-md-block'`}>
             <div className='row navbar  show'>
               <ul className="navbar-nav ml-auto" data="nav nav-tabs">
                 {MyNavBarItems.map((item) =>
